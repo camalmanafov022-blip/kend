@@ -34,7 +34,8 @@ flutter_launcher_icons:
 # 2. Açılış Ekranı (Splash Screen) Ayarları
 flutter_native_splash:
   color: "#FFFFFF" # Arxa fon rəngi (ağ rəng)
-  image: "splash_logo.png" # Mərkəzdə görünəcək loqo şəkilinin adı
+  image: "Green Illustrative Growing Forests Sustaining Life Poster.png
+" # Mərkəzdə görünəcək loqo şəkilinin adı
   android: true
   ios: true
   fullscreen: true
