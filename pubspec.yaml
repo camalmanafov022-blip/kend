@@ -27,7 +27,7 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "app_icon.png" # GitHub-a yüklədiyin şəkilin adı
+  image_path: "kend.jpg" # GitHub-a yüklədiyin şəkilin adı
   # Android üçün adaptiv ikon rəngi (istəsən dəyişə bilərsən)
   adaptive_icon_background: "#FFFFFF" 
 
