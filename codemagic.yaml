@@ -1,9 +1,11 @@
 workflows:
-  android-debug:
-    name: Android Debug
+  react-native-android:
+    name: React Native Android
     environment:
-      flutter: stable
+      node: latest
     scripts:
-      - flutter build apk --debug
+      - npm install
+      - npx react-native bundle --platform android --dev false --entry-file main.tsx --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+      - cd android && ./gradlew assembleDebug
     artifacts:
-      - build/app/outputs/flutter-apk/app-debug.apk
+      - android/app/build/outputs/apk/debug/*.apk
